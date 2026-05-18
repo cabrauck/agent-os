@@ -3,3 +3,17 @@
 root:
   claude-os-integration:
     description: Compliance-Regeln für die claude-os-Instanz (Teil A: Compose/Namespace) und jedes Dev-Projekt (Teil B: KB, File-Watcher, rsync-Mirror) im WSL2-Dev-Setup
+
+sync:
+  rsync-patterns:
+    description: Env-override für SSH-Targets, --delete Doppelschutz und SSH-Optionen in allen rsync-Scripts
+
+workspace:
+  agent-instructions:
+    description: Tool-neutral AGENTS.md vs. Claude-specific CLAUDE.md split pattern
+  dry-run-first:
+    description: Alle mutierende Operationen defaulten auf dry-run, explizites --apply nötig
+  project-layout:
+    description: Pflicht-Verzeichnisstruktur und Initialisierungsreihenfolge für agent-os-Projekte
+  wsl2-canonical:
+    description: Ubuntu WSL2 ist kanonisches Dev-Environment, Windows-Pfade nur für Migration
