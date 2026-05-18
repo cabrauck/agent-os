@@ -1,0 +1,5 @@
+# Agent OS Standards Index
+
+root:
+  claude-os-integration:
+    description: Compliance-Regeln für die claude-os-Instanz (Teil A: Compose/Namespace) und jedes Dev-Projekt (Teil B: KB, File-Watcher, rsync-Mirror) im WSL2-Dev-Setup
